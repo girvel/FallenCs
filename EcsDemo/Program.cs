@@ -1,8 +1,9 @@
-﻿// using System.Numerics;
-// using EcsCs;
-// using EcsDemo;
+﻿using EcsCs;
+using EcsDemo;
 
 Console.WriteLine("Hello, World!");
 
-// var entity = new Entity(new object[] {new Position(new Vector<short>())});
-// Console.WriteLine(entity);
+var entity = new Entity(
+    new Position(new Int2(3, 2)));
+
+Console.WriteLine(entity.GetComponent<Position>().Vector);

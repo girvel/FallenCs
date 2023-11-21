@@ -4,7 +4,7 @@ public class Entity
 {
     private readonly object[] _components;
 
-    public Entity(object[] components)
+    public Entity(params object[] components)
     {
         _components = components;
     }

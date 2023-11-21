@@ -1,6 +1,3 @@
-﻿using System.Numerics;
+﻿namespace EcsDemo;
 
-namespace EcsDemo;
-
-
-public record Position(Vector<Int16> Vector);
+public record Position(Int2 Vector);
